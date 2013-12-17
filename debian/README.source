@@ -1,0 +1,21 @@
+Debian packaging for libpam-captcha
+-----------------------------------
+
+A quick summary in how update the Debian packaging:
+
+    git clone --dept=1 https://github.com/chilicuil/libpam-captcha-deb
+    cd libpam-captcha-deb
+    dch -i #insert proper new upstream version 
+    debian/rules get-orig-source
+    mv debian libpam-captcha-*
+    cd libpam-captcha-*
+    [ Make here some adaptations, like updating debian/patches, if needed ]
+    $EDITOR debian/changelog
+    debuild -S
+    upload .dsc | .changes files
+
+These are the important steps and may need to be changed according to
+deviations, say, in the release process of upstream releases (e.g., if
+upstream changes the location where the tarballs reside).
+
+ -- Javier P.L. <chilicuil@ubuntu.com>, Thu 17 Dec 2013 03:11:15 AM UTC
