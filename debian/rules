@@ -18,7 +18,7 @@ export DH_VERBOSE=1
 
 get-orig-source:
 	rm -rf debian/tmp; mkdir debian/tmp
-	cd debian/tmp; wget https://github.com/chilicuil/pam_captcha/archive/${DEB_MASTER_VERSION}.tar.gz
+	cd debian/tmp; wget https://github.com/minos-org/pam_captcha/archive/${DEB_MASTER_VERSION}.tar.gz
 	cd debian/tmp; tar xvzf ${DEB_MASTER_VERSION}.tar.gz
 	cd debian/tmp; mv pam_captcha-* libpam-captcha-${DEB_UPSTREAM_VERSION}
 	cd debian/tmp; tar cvJf libpam-captcha_${DEB_UPSTREAM_VERSION}.orig.tar.xz libpam-captcha-${DEB_UPSTREAM_VERSION}
