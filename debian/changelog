@@ -1,5 +1,5 @@
-libpam-captcha (0~20131217+gitdd745f868a-minos1) precise; urgency=low
+libpam-captcha (1:201406192125+gite4006ea-minos) precise; urgency=low
 
-  * Initial release
+  * New version
 
  -- Javier P.L. <chilicuil@ubuntu.com>  Tue, 17 Dec 2013 03:26:04 -0600
