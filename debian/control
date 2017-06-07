@@ -1,12 +1,12 @@
 Source: libpam-captcha
 Section: admin
 Priority: optional
-Maintainer: Javier P.L. <chilicuil@ubuntu.com>
+Maintainer: Javier López <m@javier.io>
 Build-Depends: debhelper (>= 7.0.5), libpam0g-dev
 Standards-Version: 3.9.4
 Homepage: http://www.semicomplete.com/projects/pam_captcha/
-Vcs-Git: git://github.com/chilicuil/libpam-captcha-deb.git
-Vcs-Browser: https://github.com/chilicuil/libpam-captcha-deb.git
+Vcs-Git: git://github.com/javier-lopez/libpam-captcha-deb.git
+Vcs-Browser: https://github.com/javier-lopez/libpam-captcha-deb.git
 
 Package: libpam-captcha
 Architecture: any
